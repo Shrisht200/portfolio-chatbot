@@ -215,7 +215,7 @@ async function sendMessage(){
   try{
 
     // SEND TO FLASK BACKEND
-    const response = await fetch("http://127.0.0.1:5000/chat", {
+    const response = await fetch("https://shrishti-the-ml-enthusiast.onrender.com/chat", {
 
       method: "POST",
 
